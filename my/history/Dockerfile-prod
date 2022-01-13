@@ -6,4 +6,8 @@ COPY package*.json ./
 RUN npm install --only-production
 COPY ./src ./src
 
-CMD npm start
+# ENV DBHOST "mongodb://db:27017"
+# ENV DBNAME "videos"
+
+CMD npx wait-port rabbit:5672 && \
+npm start

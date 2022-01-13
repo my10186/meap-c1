@@ -1,8 +1,8 @@
 {
-  "name": "video-streaming",
+  "name": "recommendations",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "start": "node ./src/index.js",
     "start:dev": "nodemon --legacy-watch ./src/index.js"
@@ -10,12 +10,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
   "dependencies": {
     "amqplib": "^0.5.6",
     "express": "^4.17.1",
+    "mongodb": "^3.3.4",
     "wait-port": "^0.2.6"
-  },
-  "devDependencies": {
-    "nodemon": "^1.19.1"
   }
 }

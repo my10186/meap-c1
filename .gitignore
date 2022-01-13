@@ -10,3 +10,6 @@ example-3/video-streaming/node_modules/
 example-4/history/node_modules/
 example-4/video-streaming/node_modules/
 example-4/recommendations/node_modules/
+my/video-streaming/node_modules/
+my/history/node_modules/
+tmp/
